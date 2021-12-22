@@ -1,0 +1,53 @@
+/* >>>>> IPAD SETTINGS <<<<<< */
+@media screen and (min-width:768px) {
+    /* header banner */
+    .text-header {
+        font-size: 1.3rem;
+    }
+
+    /* main section */
+    .main-img {
+        height:60vh;
+    }
+    .overlay {
+        padding: 35px;
+    }
+    .overlay h1 {
+        font-size: 2.8rem;
+    }
+    
+    /* kampong section */
+    .sect-kampong-text {
+        width: 80%;
+    }
+    .circle-small {
+        height: 150px;
+        width: 150px;
+    }
+    
+    /* Section - programme and cirriculum */
+    #cirriculum>div.row {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .prog-p { 
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    /* Section - footer-deco */
+    #footer-deco {
+        height: 200px;
+    }
+
+
+    /* ABOUT US HTML */
+    .about-mini-nav {
+        /* position: fixed; */
+        top: auto;
+    }
+    #sect-frame-info {
+        height: 100vh;
+        overflow: scroll;
+    }
+}

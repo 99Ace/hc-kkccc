@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* font-family: 'Raleway', sans-serif; */
+/* font-family: 'Lato', sans-serif; */
+
+
+.font-100 {
+    font-weight: 100;
+}
+.font-200 {
+    font-weight: 200;
+}
+.font-300 {
+    font-weight: 300;
+}
+.font-400 {
+    font-weight: 400;
+}
+.font-500 {
+    font-weight: 500;
+}
+.font-600 {
+    font-weight: 600;
+}
+.font-700 {
+    font-weight: 700;
+}
+.font-900 {
+    font-weight: 900;
+}
+

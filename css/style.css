@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* font-family: 'Raleway', sans-serif; */
+/* font-family: 'Lato', sans-serif; */
+@import url('http://fonts.cdnfonts.com/css/arial-rounded-mt-bold');
+/* fonts settings  */
+p {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+h1,h2,h3,h4,h5,h6 {
+    /* font-family: 'Raleway', sans-serif;  rounded arial*/
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Arial Rounded MT Bold', sans-serif;
+                                                
+    font-weight: 700;
+}
+/* >>>>> MOBILE SETTINGS <<<<<< */
+/* header banner */
+.text-header {
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Arial Rounded MT Bold', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.icon-m {
+    font-size: 1.6rem;
+    margin: 0 2px;
+}
+
+/* navbar */
+.navbar-brand>img {
+    height: 80px;
+}
+.nav-link,.dropdown-item {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.9px;
+    font-weight:400 !important;
+    color: #228B22 !important;
+}
+.nav-link:hover,
+.dropdown-item:hover {
+    background-color: #228B22;
+    color: #DCF9CB !important;
+}
+.dropdown-divider {
+    border: 1px solid #228B22;
+}
+.active {
+    font-weight: 800 !important;
+}
+.icon-collapse {
+    font-size: 1.7rem;
+}
+
+/* main section */
+.main-img {
+    height: 40vh;
+    background-image: url('../images/kid-gardening.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+.overlay  {
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 20px;
+    background-color: rgba(0,0,0,0.15);
+}
+.overlay>div {
+    width: 70%;
+}
+.overlay h1 {
+    font-size: 2rem;
+    font-weight:300;
+}
+.overlay span  {
+    font-weight: 600;
+}
+/* main-row-2 */
+.main-row-2>div>div {
+    min-height: 350px;
+}
+.mr2-h3 {
+    font-size: 2.4rem;
+}
+.mr2-h2 {
+    font-size: 1.4rem;
+    position: relative;
+    top: -10px;
+}
+/* Kampong Spirit section */
+
+#kampong-layout {
+    position: relative;
+}
+.circle-main {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.circle-small {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+}
+.circle-1 {
+    bottom: 20px;
+    left: 20px;
+}
+.circle-2 {
+    bottom: 20px;
+    right: 20px;
+}
+.circle-3{
+    display: none;
+}
+/* Section - programme and cirriculum */
+.card-bar {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 8px 20px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+/* Section - testimonial */
+#sect-testimonial>div:nth-child(1){
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.box-testimonial{
+    max-width: 1000px;
+    position: relative;
+    top: -150px;
+    margin: 0 auto;
+}
+.testimonial-frame {
+    min-height: 450px;
+    max-width: 300px;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 24px;
+
+    display: flex;
+    flex-direction: column;
+}
+.testi-info {
+    padding-top: 20px;
+    flex: 2;
+    /* background-color: lightgrey; */
+}
+
+.bg-testi-1 {
+    background-image: url('https://www.kidsandkins.sg/resources/Picture1.jpg');
+}
+.bg-testi-2 {
+    background-image: url('https://www.kidsandkins.sg/resources/Picture5.jpg');
+}
+.bg-testi-3 {
+    background-image: url('https://www.kidsandkins.sg/resources/Picture2.jpg');
+}
+.bg-testi-setting {
+    background-size: cover;
+    /* background-position: center; */
+}
+.testi-parent {
+    flex: 1;
+    /* background-color: lightgrey */
+}
+.testimonial-circle {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: turquoise;
+    margin: 20px 0;
+}
+
+/* Section - footer-deco */
+#footer-deco {
+    height: 120px;
+    background-image: url('../images/kampung-v2-std.png');
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+/* footer */
+footer {
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+/* Rotating */
+.cube-wrapper {
+    height: 600px;
+}
+.img-small{
+    height: 120px;
+}
+.wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .cube-wrap {
+    width: 400px;
+    height: 400px;
+    -webkit-perspective: 2000px;
+    -webkit-perspective-origin: 50% -500px;
+  }
+  .single-box {
+    /* background-image: url(https://i.postimg.cc/8zd9b1cm/1.png); */
+    background-size: cover;
+    display: block;
+    position: absolute;
+    width: 360px;
+    height: 360px;
+    /* background-color: #60ed53b5; */
+    -webkit-transform: rotateY(45deg) translateZ(-200px) rotateX(15deg);
+    -webkit-transform-origin: 50% 50% 0;            
+  }
+  .box {
+    -webkit-transform-style: preserve-3d;
+    -webkit-animation: rotate 20s infinite linear reverse;
+  }
+  .side-front { 
+    -webkit-transform: translateZ(180px);
+  }
+  .side-back { 
+    -webkit-transform: rotateY(180deg) translateZ(180px);
+  }
+  .side-top {
+    /* background-image: url(https://i.postimg.cc/8zd9b1cm/1.png); */
+    -webkit-transform: rotateX(90deg) translateZ(180px);
+  }
+  .side-bottom { 
+    -webkit-transform: rotateX(-90deg) translateZ(180px); 
+  }
+  .side-left { 
+    -webkit-transform: rotateY(-90deg) translateZ(180px); 
+  }
+  .side-right { 
+    -webkit-transform: rotateY(90deg) translateZ(180px); 
+  }
+  
+  
+  @-webkit-keyframes rotate {
+    0% { -webkit-transform: rotateY(0); }
+    100% { -webkit-transform: rotateY(360deg); }
+  }
+  
+  
+  
+

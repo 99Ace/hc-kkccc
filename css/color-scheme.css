@@ -1,0 +1,107 @@
+/* background color */
+/* GREEN YELLOW */
+.bg-knk1 {
+    background-color: #ADFF2F !important;
+}
+/* LAWN GREEN */
+.bg-knk2 {
+    background-color: #7CFC00 !important;
+}
+/* YELLOW GREEN */
+.bg-knk3 {
+    background-color: #9ACD32 !important;
+}
+/* CHARTREUSE */
+.bg-knk4 {
+    background-color: #7FFF00 !important;
+}
+/* GREEN */
+.bg-knk5 {
+    background-color: #0DFF00 !important;
+}
+/* LIME GREEN */
+.bg-knk6 {
+    background-color: #32CD32 !important;
+}
+/* FOREST GREEN */
+.bg-knk-dark {
+    background-color: #1e9b1e !important;
+}
+.bg-knk-mid {
+    background-color: #36a236 !important;
+}
+.bg-knk-light {
+    background-color: #DCF9CB;
+}
+
+/* text color */
+.text-knk-dark {
+    color: #228B22 !important; /*CONFIRMED BG-KNK-DARK*/
+}
+.text-knk-mid {
+    color: #3bab3b !important;
+}
+/* YELLOW GREEN */
+.bg-knk-mid2 {
+    background-color:#9ACD32     !important;
+}
+.text-knk-light {
+    color: #DCF9CB !important;
+}
+/* border color */
+.border-knk-dark {
+    border: 2px solid #228B22 !important;
+}
+
+/* button color */
+.btn {
+    border-radius: 24px;
+    padding: 8px 24px;
+}
+.btn-knk-dark {
+    background-color: #228B22;
+    color: white;
+}
+.btn-knk-dark:hover {
+    background-color: #247524;
+    color: white !important;
+}
+.btn-contact {
+    background-color: #228B22;
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 8px 24px;
+    border-radius: 8px;
+}
+.btn-contact:hover {
+    background-color: #216821;
+    color: white;
+}
+.btn-visit {
+    /* background-color: #dcdcdc; */
+    border: 1px solid #228B22; 
+    color: #228B22;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 8px 24px;
+    border-radius: 24px;
+}
+
+
+/* break section */
+.section-break {
+    height: 150px;
+    background-image: url('../images/clipart-kids-happy-jumping.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media screen and (min-width:768px) {
+    .btn-contact {
+        display: inline-block;
+    }
+}

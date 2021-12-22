@@ -1,0 +1,111 @@
+/* mobile */
+.sect-banner {
+    height: 40vh;
+    background-image: url('https://www.kidsandkins.sg/resources/IMG_7883.JPG.opt960x540o0%2C0s960x540.JPG');
+    background-size: cover;
+    background-position: 50% 40% ;
+    background-repeat: no-repeat;
+}
+.bg-curriculum {
+    background-image: url('../images/kid-art-paperweight.jpeg');
+}
+.ht-3vh {
+    height: 300vh;
+}
+.sub-header {
+    font-size: 1.3rem;
+    display: inline-block;
+    padding: 6px 18px;
+    font-weight: 300;
+    letter-spacing: 1.1px;
+}
+.sub-point {
+    text-decoration: none;
+    color: rgb(82, 79, 79);
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.9px;
+    display: block;
+    padding: 0 6px;
+    margin: 12px 0;
+    border-left:  solid 3px #228B22;
+}
+/* SEGEMENT ABOUT US */
+#seg-about-us p {
+    line-height: 2;
+    font-size: 1.1rem;
+    color: rgb(82, 82, 82);
+}
+/* SEGMENT MISSION VISION VALUES */
+#seg-mission-vision {
+    min-height: 600px;
+    position: relative;
+}
+.mvv-logo {
+    font-size: 6rem;
+    font-family: 'Arial Rounded MT Bold', sans-serif;
+    font-weight: 900;
+    color: #62eb133c !important;
+    position: absolute;
+}
+.mission-logo {
+    top: 20%;
+    left: 5%;
+}
+.and-logo {
+    top: 35%;
+    left: 40%;
+}
+.vision-logo {
+    top: 50%;
+    left: 15%;
+    color: #deee283c !important;
+}
+.mvv-circle {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    color: #228B22;
+    background-color: #62eb133c !important;
+    margin: 20px;
+
+    font-family: 'Arial Rounded MT Bold', sans-serif;
+    font-size: 2rem;
+
+    display: flex;
+    /* justify-content: flex-start ; */
+    padding-left: 30px;
+    align-items: center;
+}
+/* SEGMENT OUR TEAM */
+.team-frame {
+    max-width: 300px;
+    height: 400px;
+    background-color: rgb(240, 240, 240);
+    text-align: center;
+    margin: 20px auto;
+    padding-bottom: 30px;
+    border-radius: 24px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.team-circle {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom:40px;
+}
+.team-bg1 {
+    background-image: url('../images/cat-ong.jpeg');
+    background-size: cover;
+}
+.team-bg2 {
+    background-image: url('../images/cat-ong.jpeg');
+    background-size: cover;
+    background-position:100%;
+}
+.team-callout {
+    height: auto;
+}

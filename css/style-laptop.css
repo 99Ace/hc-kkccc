@@ -1,0 +1,88 @@
+/* >>>>> LAPTOP SETTINGS <<<<<< */
+@media screen and (min-width:769px) {
+    /* navbar  */
+    .nav-link:hover {
+        background-color:#DCF9CB !important;
+        color: #228B22 !important;
+        border-bottom: 3px solid #228B22;
+    }
+}
+@media screen and (min-width:1200px) {
+    /* header banner */
+    .icon-m {
+        font-size: 1.8rem;
+        margin: 0 3px;
+    }
+    /* navbar  */
+    .nav-link:hover {
+        background-color:#DCF9CB !important;
+        color: #228B22 !important;
+        border-bottom: 3px solid #228B22;
+    }
+    
+    /* main section */
+    .main-img {
+        height:75vh;
+    }
+    .overlay {
+        padding: 45px;
+    }
+    .overlay h1 {
+        font-size: 4rem;
+    }
+    .mr2-h3 {
+        font-size: 3.2rem;
+        color: grey;
+    }
+    .mr2-h2 {
+        font-size: 2rem;
+        font-weight: 700;
+        position: relative;
+        top: -25px;
+        left: 40px;
+    }
+    
+    /* Kampong Spirit section */
+    #sect-kampong>.row {
+        height: 400px;
+    }
+    .bg-coconut-tree {
+        background-image: url('../images/coconut-tree.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: right;
+        opacity: 0.88;
+    
+    }
+    .circle-main  {
+        position: absolute;
+        left: 200px;
+        bottom: 0px;
+    }
+    .circle-1 {
+        bottom: 0px;
+        left: 130px;
+    }
+    .circle-2 {
+        top: 20px;
+        left: 130px;
+    }
+    /* .circle-3 {
+        display: unset;
+        height: 150px;
+        width: 150px;
+        border-radius: 0;
+        top: 30px;
+        left: 50px;
+    } */
+
+    /* Section - programme and cirriculum */    
+    .prog-p { 
+        width: 60%;
+    }
+
+    /* Section - footer-deco */
+    #footer-deco {
+        height: 300px;
+    }
+}
